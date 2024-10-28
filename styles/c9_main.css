@@ -43,11 +43,13 @@ header img {
 /* the styles for the navigation menu */
 #nav_menu ul {
 	display: flex;
+	flex-basis: 100%;
 	flex-direction: column; 
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	position: relative;
+	justify-content: space-around;
 }
 #nav_menu ul li {
     width: 100%;
@@ -66,12 +68,13 @@ header img {
 	color: yellow;
 }
 #nav_menu ul ul {
-	width: 100%;
+    width: 100%;
     display: none;
     position: absolute;
     top: 100%;
 }
 #nav_menu ul ul li {
+	flex-basis: 20%; 
 }
 #nav_menu ul li:hover > ul {
 	display: block;
