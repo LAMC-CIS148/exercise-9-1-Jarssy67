@@ -44,7 +44,6 @@ header img {
 #nav_menu ul {
 	display: flex;
 	flex-basis: 100%;
-	flex-direction: column; 
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
