@@ -43,7 +43,7 @@ header img {
 /* the styles for the navigation menu */
 #nav_menu ul {
 	display: flex;
-	flex-direction: row; 
+	flex-direction: column; 
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
