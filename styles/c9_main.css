@@ -197,11 +197,13 @@ footer p {
 	header { text-align: center; }
 	section {
 		float: none;
+		order: 1;
 		width: 95%;
 		flex-basis: 100%;
 	}
 	aside {
 		float: none;
+		order: 2;
 		padding-right: 2.5%;
 		width: 95%;
 		flex-basis: 100%;
